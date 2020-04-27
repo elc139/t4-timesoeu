@@ -61,9 +61,6 @@ main(int argc, char* argv[])
    omp_set_num_threads(num_threads);
 
    try {
-
-      // Population* population = new Population(population_size);
-      // Population* population = NULL;
       Random rand;
 
       prob_spread = new double[n_probs];
